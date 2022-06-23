@@ -1,4 +1,172 @@
 
+.head{
+  height: 100px;
+}
+.head img{
+  width: 70%;
+}
+ul li {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 12px;
+}
+.attivo{
+  border-bottom: 3px solid blue;
+}
 
 
+.main{
+  background-color: #1C1C1C;
+  height: 50%;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 
+
+.etichetta{
+  background-color: #0C7CEC;
+  color: white;
+  position: absolute;
+  margin-top: -50px;
+  padding: 10px;
+}
+.etichetta h3{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 0;
+}
+
+.jumbotron{
+  height: 500px;
+  background-image: url(../img/jumbotron.jpg);
+  background-position: top;
+  margin: 0;
+}
+
+.singleCard{
+  width: calc(100% / 6);
+  margin: 20px auto;
+}
+.singleCard img{
+  width: 150px; 
+  height: 150px;
+  -o-object-fit:cover;
+     object-fit:cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.singleCard h4{
+  font-size: 18px;
+  margin-top: 10px;
+  max-width: 150px;
+}
+
+
+.singleCard:hover .overlay {
+  opacity: 1;
+}
+.overlay{
+  position: absolute;
+  width: 150px; 
+  height: 150px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4a4a4a;
+}
+.text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.text h5{
+  font-size: 15px;
+}
+
+
+.bottoneLoad{
+  background-color: #0C7CEC;
+  margin: auto;
+  height: 50px;
+  width: 400px;
+  
+}
+.bottoneLoad a{
+  color: white;
+  margin: auto;
+  font-size: 20px;
+}
+
+.footer{
+  color: white;
+}
+
+.Up{
+  background-color: #0282F9;
+  height: 25%;
+}
+.Up ul li, .Down ul li{
+  list-style: none;
+  display: inline;
+  font-size: 16px;
+}
+.Up img{
+  height: 75px;
+  
+  padding: 20px;
+}
+
+
+.Mid{
+  background-image: url(../img/footer-bg.jpg);
+  height: 45%;
+}
+.menu{
+  margin: 0;
+}
+.SxMenu{
+  padding-top: 30px
+}
+.SxMenu ul li{
+   list-style: none;
+   color: #7B7B7B;
+   font-weight: 400;
+}
+.SxMenu ul{
+   padding: 0;
+   padding:10px 0px;
+}
+.DxMenu{
+  background-image: url(../img/dc-logo-bg.png);
+  background-size: cover;
+  background-position: right;
+  height: 400px;
+}
+
+.Down{
+  background-color: #303030;
+  height: 80px;
+}
+#signUP{
+  color: white;
+  border: 3px solid #0282F9;
+  padding: 10px;
+}
+.Down h5{
+  color: #0282F9;
+  font-weight: 500;
+}
+.dxDown img{
+  padding: 5px
+}
+.dxDown h5{
+  margin: 0;
+}
