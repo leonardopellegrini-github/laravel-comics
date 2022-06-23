@@ -1,0 +1,41 @@
+// HEADER
+
+.head{
+  height: 100px;
+}
+.head img{
+  width: 70%;
+}
+ul li {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 12px;
+}
+.attivo{
+  border-bottom: 3px solid blue;
+}
+
+// MAIN
+.main{
+  background-color: #1C1C1C;
+  height: 50%;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+///etichetta
+.etichetta{
+  background-color: #0C7CEC;
+  color: white;
+  position: absolute;
+  margin-top: -50px;
+  padding: 10px;
+  h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0;
+  }
+}

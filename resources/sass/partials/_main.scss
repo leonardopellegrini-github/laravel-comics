@@ -1,0 +1,58 @@
+///JUMBOTRON
+.jumbotron{
+  height: 500px;
+  background-image: url(../img/jumbotron.jpg);
+  background-position: top;
+  margin: 0;
+}
+///CARD
+.singleCard{
+  width: calc(100% / 6);
+  margin: 20px auto;
+}
+.singleCard img{
+  width: 150px; 
+  height: 150px;
+  object-fit:cover;
+  object-position: top;
+}
+.singleCard h4{
+  font-size: 18px;
+  margin-top: 10px;
+  max-width: 150px;
+}
+//hover
+.singleCard:hover .overlay {
+  opacity: 1;
+}
+.overlay{
+  position: absolute;
+  width: 150px; 
+  height: 150px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4a4a4a;
+}
+.text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  h5{
+    font-size: 15px;
+  }
+}
+// BOTTONE LOAD
+.bottoneLoad{
+  background-color: #0C7CEC;
+  margin: auto;
+  height: 50px;
+  width: 400px;
+  a{
+    color: white;
+    margin: auto;
+    font-size: 20px;
+  }
+}

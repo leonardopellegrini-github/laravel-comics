@@ -1,0 +1,66 @@
+//FOOTER
+
+.footer{
+  color: white;
+}
+//BLOCCO ICONE---------
+.Up{
+  background-color: #0282F9;
+  height: 25%;
+}
+.Up ul li, .Down ul li{
+  list-style: none;
+  display: inline;
+  font-size: 16px;
+}
+.Up img{
+  height: 75px;
+  
+  padding: 20px;
+}
+//BLOCCO MENU FOOTER---------
+.Mid{
+  background-image: url(@/img/footer-bg.jpg);
+  height: 45%;
+}
+.menu{
+  margin: 0;
+}
+.SxMenu{
+  padding-top: 30px
+}
+.SxMenu ul li{
+   list-style: none;
+   color: #7B7B7B;
+   font-weight: 400;
+}
+.SxMenu ul{
+   padding: 0;
+   padding:10px 0px;
+}
+.DxMenu{
+  background-image: url(@/img/dc-logo-bg.png);
+  background-size: cover;
+  background-position: right;
+  height: 400px;
+}
+//FOOTER BASSO---------
+.Down{
+  background-color: #303030;
+  height: 80px;
+}
+#signUP{
+  color: white;
+  border: 3px solid #0282F9;
+  padding: 10px;
+}
+.Down h5{
+  color: #0282F9;
+  font-weight: 500;
+}
+.dxDown img{
+  padding: 5px
+}
+.dxDown h5{
+  margin: 0;
+}
