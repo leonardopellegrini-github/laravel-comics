@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+    $data = config('cards');
 
-
-
-    return view('home');
+    return view('home', ['prodotti'=> $data]);
 });
